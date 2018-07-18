@@ -3,8 +3,6 @@ var ctx = c.getContext('2d');
 
 //Boule de glace courbe quadratic
 ctx.beginPath();
-ctx.lineWidth="3";
-ctx.strokeStyle="black";
 ctx.moveTo(140,150);
 ctx.quadraticCurveTo(230,50,260,150);
 ctx.fillStyle = '#8A0908';
